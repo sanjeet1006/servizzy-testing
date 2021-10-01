@@ -117,7 +117,7 @@
                         <P><%=row.carDetails.suc.brandName %> - <%=row.carDetails.suc.modelName %> - <%=row.carDetails.suc.fuelType %></p>
                   </td>
                     <td><%= row.total%></td>
-                    <td><%= moment(row.time).format('Do MMM YYYY')%></td>
+                    <td><%= moment(row.serviceDate).format('Do MMM YYYY')%></td>
                     <td><%= row.serviceType%></td>
                     <td><%= row.odometerReading%></td>
                     <td><%= row.invoiceAmount%></td>
@@ -125,7 +125,7 @@
                     <!-- <td><%= row.nextServiceDate %></td> -->
                     <!-- <td><%= row.nextServiceKms %></td> -->
                     <td><%= row.paymentId %></td>
-                    <td><%= moment(row.createdAt).format('MMMM Do YYYY, h:mm:ss a') %></td>
+                    <td><%= moment(row.time).format('MMMM Do YYYY, h:mm:ss a') %></td>
                     <td><% if(row.orderStatus==='true'){ %>
                           Completed
                   <% } %>
