@@ -23,7 +23,7 @@ router.get('/offlineOrder',authenticate,(req,res)=>{
     res.render('offlineOrder',{role:req.user.role})
 })
 
- router.post('/offlineOrder',upload.single('invoicePdf'),async(req,res)=>{    
+ router.post('/offlineOrder',authenticate,upload.single('invoicePdf'),async(req,res)=>{    
     try{
 const {name,phone,email,brandName,brandModel,fuelType,serviceName,createDate,serviceDate,serviceType,invoiceAmount,nextServiceDate,nextServiceKms,odometerReading,dealerName}=req.body;
 const textSms=req.body.textSms;

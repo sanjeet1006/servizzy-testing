@@ -86,7 +86,7 @@ const {orderid,serviceDate,serviceType,invoiceAmount,odometerReading,dealerName,
 const textSms=req.body.textSms;
 const userData=await orderModel.findOne({_id:orderid})
 //console.log(userData)
-// const result=await cloudinary.uploader.upload(req.file.path)
+const result=await cloudinary.uploader.upload(req.file.path)
 const data=await orderModel.updateOne({_id:orderid},{
 serviceDate,
 serviceType,
@@ -96,8 +96,8 @@ nextServiceDate,
 nextServiceKms,
 dealerName,
 orderStatus:"true",
-invoicePDF:req.file.filename
-// cloudinary_id:result.public_id
+invoicePDF:result.secure_url,
+cloudinary_id:result.public_id
 })
 fs.unlink(req.file.path,fileHandler)
 if(textSms!=''){
