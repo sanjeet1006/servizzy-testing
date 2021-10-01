@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/Logo (2).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>Edit Admin Order</title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"
+        ><img src="/images/Logo (2).png" width="100" alt=""
+      /></a>
+      <button
+        class="navbar-toggler navbar-toggler-right collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navb"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="/services">Services</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link " href="/user">Manage Customers</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" href="/ongoingOrder">Ongoing Order</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link " href="/completedOrder">Completed Order</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link " href="/offlineOrder">Offline Order</a>
+            </li>
+            <% if(role=='superAdmin') {%>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="/addAdmin">Add Admin</a>
+              </li>
+              <%}%>
+          </ul>
+        <a href="/logout">  <button class="btn btn-success my-2 my-sm-0">
+          Logout
+        </button></a>
+      </div>
+    </nav>
+    <div class="container mt-5">
+          <div class="modal-body">
+            <form method="POST" action="/admin/order/status" enctype="multipart/form-data">
+                <input type="hidden" name="orderid" value="<%=data%>" >
+              <div class="modal-body">
+                  <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="serviceDate">Service Date</label>
+                    <input
+                      type="date"
+                      class="form-control"
+                      name="serviceDate"
+                      id="serviceDate"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="serviceType">Service Type</label>
+                 <select class="form-control" id="serviceType" name="serviceType" required>
+            <option value="">--Select Service Type--</option>
+            <option value="Ac Servicing">Ac Servicing</option>
+            <option value="Battery Replacement">Battery Replacement</option>
+            <option value="Car Service">Car Service</option>
+            <option value="Car Inspection">Car Inspection</option>
+            <option value="Cleaning & Detailing">Cleaning & Detailing</option>
+            <option value="Electrical Repair">Electrical Repair</option>
+            <option value="Insurance Claim">Insurance Claim</option>
+            <option value="Mechanical Services">Mechanical Services</option>
+            <option value="Paint Job">Paint Job</option>
+            <option value="Windshield Replacement">Windshield Replacement</option>
+            <option value="Wheel Balance & Alignment">Wheel Balance & Alignment</option>
+          </select>
+                  </div>
+                </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="invoice amount">Invoice Amount</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="invoiceAmount"
+                    id="invoiceAmount"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="odometer Reading">Odometer Reading</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="odometerReading"
+                      id="odometerReading"
+                      required
+                    />
+                  </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                  <label for="email">Next Service Due Date</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    name="nextServiceDate"
+                    id="nextServiceDate"
+                    required
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="pdf Invoice">Next Service Due Kms</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="nextServiceKms"
+                    id="nextServiceKms"
+                    required
+                  />
+                </div>
+              </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="dealer">Dealer Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="dealerName"
+                      id="dealerName"
+                      required
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="pdf Invoice">Invoice PDF</label>
+                    <input
+                      type="file"
+                      class="form-control"
+                      name="invoicePdf"
+                      id="invoicePdf"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="desc1">Enter Text Sms</label>
+                  <textarea
+                    class="form-control"
+                    name="textSms"
+                    id="textSms"
+                    cols="10"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </div>
+              <div
+                class="modal-footer border-top-0 d-flex justify-content-center"
+              >
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+            </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- <script src="/javascripts/displaydata.js"></script> -->
+  </body>
+</html>

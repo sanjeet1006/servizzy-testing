@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/Logo (2).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+ 
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>Add Admin</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"
+        ><img src="/images/Logo (2).png" width="100" alt=""
+      /></a>
+      <button
+        class="navbar-toggler navbar-toggler-right collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navb"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/services">Services</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/user">Manage Customers</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/ongoingOrder">Ongoing Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/completedOrder">Completed Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/offlineOrder">Offline Order</a>
+          </li>
+          <% if(role=='superAdmin') {%>
+            <li class="nav-item mx-4">
+              <a class="nav-link active" href="/addAdmin">Add Admin</a>
+            </li>
+            <%}%>
+        </ul>
+        
+        <a href="/logout">  <button class="btn btn-success my-2 my-sm-0">
+            Logout
+          </button></a>
+        
+      </div>
+    </nav>
+ 
+    <div class="container mt-5">
+        <div class="modal-body">
+          <form method="POST" action="/addAdmin">
+              
+            <div class="modal-body">
+              <%- include('message') %>
+              <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="name"
+                    id="name"
+                    value="<%= typeof name!='undefined' ? name:''%>"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    value="<%= typeof email!='undefined' ? email:''%>"
+                    required
+                  />
+                </div>
+            
+ 
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="password"
+                      id="password"
+                      value="<%= typeof password!='undefined' ? password:''%>"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="ConfPassword">Confirm Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      name="confPassword"
+                      id="confPassword"
+                      value="<%= typeof confPassword!='undefined' ? confPassword:''%>"
+                      required
+                    />
+                  </div>
+             
+            
+                  
+            </div>
+            <div
+              class="modal-footer border-top-0 d-flex justify-content-center"
+            >
+              <button type="submit" class="btn btn-warning">Add Admin</button>
+            </div>
+        </div>
+          </form>
+        </div>
+        </div>
+
+        <div class="container table-responsive">
+          <table class="table table-bordered table-hover mt-5" >
+            <h4 style="text-align: center;">Existing Servizzy Admins</h4>
+            <thead class="thead-dark">
+                <% if(data.length >0){%>
+              <tr>
+                <th scope="col">S.No</th>
+                <th scope="col">Admin Name</th>
+                <th scope="col">Admin Email</th>
+                <th scope="col">Role</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+                <tbody>
+                    <tbody>
+                        <% data.forEach(function(row,index){%>
+                      <tr>
+                        <th scope="row"><%=index+1 %></th>
+                        <td><%=row.name%></td>
+                        <td><%=row.email%></td>
+                        <td><%=row.role%></td>
+                        <td class="text-center delete">
+                          <a href="/admin/delete/<%=row._id %>" onclick="return confirm('Are You Sure?')"><i class="fas fa-trash"></i></a>
+                       </td>
+                      </tr>
+                <%})%>
+                    </tbody>
+                  </tbody>
+            <% }else{%>
+                <p>No Data found in database</p>
+           <% }%>
+          </table>
+        </div>
+  </body>
+</html>

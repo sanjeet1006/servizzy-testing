@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/services"
+        ><img src="/images/Logo (2).png" width="100" alt=""
+      /></a>
+      <button
+        class="navbar-toggler navbar-toggler-right collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navb"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="/services">Services</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/user">Manage Customers</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/ongoingOrder">Ongoing Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/completedOrder">Completed Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/offlineOrder">Offline Order</a>
+          </li>
+          <% if(role=='superAdmin') {%>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="/addAdmin">Add Admin</a>
+            </li>
+            <%}%>
+        </ul>
+       
+      <a href="/logout"><button class="btn btn-success my-2 my-sm-0" >
+            Logout
+          </button>
+        </a>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <%-include('message') %>
+      <h2 class="heading card1-h text-uppercase text-center">Core Services</h2>
+      <div class="row mb-5 text-center">
+        
+        <div class="col-md-3">
+          <a href="/carService">
+          <div class="card">
+            <img
+              src="/images/im1.png"
+              class="card-img-top"
+              width="100"
+              height="200"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Car Service</h5>
+              <p class="card-text">Choose Your Package</p>
+            </div>
+          </div>
+        </a>
+        </div>
+     
+        <div class="col-md-3">
+          <a href="/paintService">
+          <div class="card">
+            <img
+              src="/images/im4.png"
+              class="card-img-top"
+              width="100"
+              height="200"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Paint Job</h5>
+              <p class="card-text">Choose Your Service</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="/mechanicalService">
+          <div class="card">
+            <img
+              src="/images/im2.png"
+              class="card-img-top"
+              width="100"
+              height="200"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mechanical Services</h5>
+              <p class="card-text">Choose Your Service</p>
+            </div>
+          </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="/cleaningService">
+          <div class="card">
+            <img
+              src="/images/im3.png"
+              class="card-img-top"
+              width="100"
+              height="200"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cleaning & Detailing</h5>
+              <p class="card-text">Choose Your Package</p>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h2 class="heading card2-h text-uppercase text-center">Other Services</h2>
+      <div class="row mb-5 text-center">
+        <div class="col">
+          <a href="/batteryService">
+          <div class="small-card">
+            <img src="/images/6.png" alt="" class="sm-img" />
+            <p>Battery Replacement</p>
+          </div>
+        </a>
+        </div>
+        <div class="col">
+          <a href="/windshieldService">
+          <div class="small-card">
+            <img src="/images/7.png" alt="" class="sm-img" />
+            <p>Windshield Replacement</p>
+          </div>
+        </a>
+        </div>
+        <div class="col">
+          <a href="/carInspection">
+          <div class="small-card">
+            <img src="/images/8.png" alt="" class="sm-img" />
+            <p>Car Inspection</p>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="/wheelService">
+          <div class="small-card">
+            <img src="/images/25.png" alt="" class="sm-img" />
+            <p>Wheel Balance & Alignment</p>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="/InsuranceService">
+          <div class="small-card">
+            <img src="/images/10.png" alt="" class="sm-img" />
+            <p>Insurance Claim</p>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="/ACService">
+          <div class="small-card">
+            <img src="/images/26.png" alt="" class="sm-img" />
+            <p>AC Servicing</p>
+          </div>
+        </a>
+        </div>
+        <div class="col">
+          <a href="/ElectricalService">
+          <div class="small-card">
+            <img src="/images/12.png" alt="" class="sm-img" />
+            <p>Electrical Repair</p>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

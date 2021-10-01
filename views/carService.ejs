@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/Logo (2).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>Services</title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"
+        ><img src="/images/Logo (2).png" width="100" alt=""
+      /></a>
+      <button
+        class="navbar-toggler navbar-toggler-right collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navb"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="/services">Services</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/user">Manage Customers</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/ongoingOrder">Ongoing Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/completedOrder">Completed Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/offlineOrder">Offline Order</a>
+          </li>
+          <% if(role=='superAdmin') {%>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="/addAdmin">Add Admin</a>
+            </li>
+            <%}%>
+        </ul>
+        <a href="/logout">  <button class="btn btn-success my-2 my-sm-0">
+          Logout
+        </button></a>
+      </div>
+    </nav>
+    <div class="container mt-5">
+      <h2 class="heading card1-h text-uppercase text-center">Car Services</h2>
+      <%- include('message') %>
+      <form action="/carService" method="POST">
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Brand Name</label>
+          <select class="form-control" id="brandname" name="brandName" required>
+            <option value="">--Select Brand Name--</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Model Name</label>
+          <select class="form-control" id="modelname" name="brandModel" required>
+            <option value="">--Select Model Name--</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Fuel Type</label>
+          <select class="form-control" id="fueltype" name="fuelType" required>
+            <!-- <option value="Diesel">Diesel</option>
+            <option value="Petrol">Petrol</option> -->
+            <option value="">--Select Fuel Type--</option>
+          </select>
+        </div>
+          <button type="submit" class="btn btn-warning">Submit</button>
+      </form>
+    </div>
+    <div class="container table-responsive mt-5">
+      <% if(data.length >0){ %>
+        <h4>Showing all the available Services for <%=brandName %> - <%= brandModel %> - <%= fuelType %></h4>
+      <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">S.No</th>
+            <th scope="col">Title</th>
+            <th scope="col">Price</th>
+            <th scope="col">Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% data.forEach(function(row,index){ %>
+            <tr>
+              <th scope="row"><%= index+1 %></th>
+              <td><%=row.title%></td>
+              <td><span>&#8377;</span> <%=row.price%></td>
+              <td class="text-center">
+                <a href="/carService/<%=row._id%>"
+                  class="btn btn-warning edit"
+                >
+                  <i class="fas fa-pencil-alt"></i>
+              </a>
+              </td>
+            </tr>
+          <% }) %>
+    
+        </tbody>
+      </table>
+      <%}else{%>
+        <p><%=message%> <%=brandName %> <%= brandModel %> <%= fuelType %></p>
+     <% } %>
+    </div>
+    <!-- <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLabel">Detail 1</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div> -->
+          <!-- <div class="modal-body">
+            <form method="POST" action="/edit">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="desc1">Description 1</label>
+                  <textarea
+                    class="form-control"
+                    name="desc1"
+                    id="desc1"
+                    cols="10"
+                    rows="2"
+                    placeholder="Description 1"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="desc2">Description 2</label>
+                  <textarea
+                    class="form-control"
+                    name="desc2"
+                    id="desc2"
+                    cols="10"
+                    rows="2"
+                    placeholder="Description 2"
+                  ></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="price">Price</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="price"
+                    id="price"
+                    placeholder="Enter Price"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="time">Time</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="time"
+                    id="time"
+                    placeholder="Enter Time"
+                  />
+                </div>
+              </div>
+              <div
+                class="modal-footer border-top-0 d-flex justify-content-center"
+              >
+                <button type="submit" class="btn btn-warning">Submit</button>
+              </div>
+            </form>
+          </div> -->
+          <!-- <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <script src="/javascripts/displaydata.js"></script>
+  </body>
+</html>

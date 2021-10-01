@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+*,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif;
+  transition: 0.3s;
+}
+.navbar {
+  background-color: #181818;
+}
+.navbar .btn-success {
+  background-color: #ff7518;
+  border: none;
+}
+.navbar-nav ul li {
+  justify-content: space-between;
+}
+.card1-h,
+.card2-h {
+  font-weight: 700;
+}
+.card {
+  width: 100%;
+  height: 100%;
+  border: none;
+  box-shadow: 3px 3px 25px #1a1a1a25;
+  border-radius: 15px;
+  margin: 1em auto;
+  cursor: pointer;
+}
+.card a {
+  text-decoration: none;
+  color: #000;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+
+.card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+.small-card {
+  border: 2px solid #111;
+  height: 150px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 25px #1a1a1a25;
+  overflow: hidden;
+  margin-top: 2em;
+}
+
+.small-card .sm-img {
+  width: 100px;
+  height: 100px;
+  padding: none;
+  margin: auto;
+}
+.small-card .sm-img2 {
+  width: 90px;
+  height: 90px;
+  padding: none;
+  margin: auto;
+}
+.small-card .sm-img3 {
+  width: 90px;
+  height: 90px;
+  padding: auto;
+  margin-top: 10px;
+}
+
+/* SERVICE PAGE */
+
+.btn-warning {
+  background: #ff7518;
+  color: #fff;
+}
+.btn-warning:hover {
+  background: #ff802b;
+  color: #fff;
+}
+.edit {
+  background-color: transparent;
+  color: #ff7518;
+  border: none;
+}
+.edit:hover {
+  background-color: transparent;
+  color: #000;
+  border: none;
+}
+.delete a {
+  color: red;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+}
+.tabledata {
+  width: 98%;
+  margin: 20px auto;
+  min-width: 1000px;
+}
+.tabledata tr {
+  font-size: 13px;
+}
+.blue-eye {
+  color: #1f85de !important;
+}
+/* #flex-up-doc{
+  display: flex;
+  justify-content: space-around;
+  height: inherit;
+} */
+/* .container{
+  width: 1400px;
+} */
+
+/* SERVICE PAGE */
+@media screen and (max-width: 768px) {
+  .card {
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .l-sm-c {
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    transition: 0.3s;
+  }
+}

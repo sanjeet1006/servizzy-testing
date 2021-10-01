@@ -1,0 +1,2391 @@
+{"message": "All Brands",
+  "data": [
+    {
+      "_id": "6097fcc25c5eaf7217fc9112",
+      "brandName": "Audi",
+      "brandImage": "../images/carBrands/Audi.png",
+      "models": [
+        {
+          "modelName": "A3",
+          "modelImage": "../images/modelsimage/Audi/AudiA3.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "A4",
+          "modelImage": "../images/modelsimage/Audi/a4.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "A6",
+          "modelImage": "../images/modelsimage/Audi/a6.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "A7",
+          "modelImage": "../images/modelsimage/Audi/AudiA7.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "A8",
+          "modelImage": "../images/modelsimage/Audi/a8.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "A8L",
+          "modelImage": "../images/modelsimage/Audi/AudiA8L.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Q3",
+          "modelImage": "../images/modelsimage/Audi/q2.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Q5",
+          "modelImage": "../images/modelsimage/Audi/AudiQ5.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Q7",
+          "modelImage": "../images/modelsimage/Audi/AudiQ7.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Q8",
+          "modelImage": "../images/modelsimage/Audi/q8.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "R8",
+          "modelImage": "../images/modelsimage/Audi/AudiR8.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "RS3",
+          "modelImage": "../images/modelsimage/Audi/AudiRS3.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "RS5",
+          "modelImage": "../images/modelsimage/Audi/AudiRS5.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "RS7",
+          "modelImage": "../images/modelsimage/Audi/AudiRS7.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "TT",
+          "modelImage": "../images/modelsimage/Audi/AudiTT.png",
+          "petrol": true,
+          "diesel": false        }
+      ]
+    },
+    {
+      "_id": "6097fed45c5eaf7217fc9113",
+      "brandName": "BMW",
+      "brandImage": "../images/carBrands/bmw.png",
+      "models": [
+        {
+          "modelName": "1 Series",
+          "modelImage": "../images/modelsimage/bmw/2.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "3 Series",
+          "modelImage": "../images/modelsimage/bmw/3.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "5 Series",
+          "modelImage": "../images/modelsimage/bmw/5.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "6 Series",
+          "modelImage": "../images/modelsimage/bmw/6.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "7 Series",
+          "modelImage": "../images/modelsimage/bmw/7.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "M5",
+          "modelImage": "../images/modelsimage/bmw/m2.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "X1",
+          "modelImage": "../images/modelsimage/bmw/x1.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "X3",
+          "modelImage": "../images/modelsimage/bmw/x3.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "M3",
+          "modelImage": "../images/modelsimage/bmw/x3m.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "X4",
+          "modelImage": "../images/modelsimage/bmw/x4.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "X5",
+          "modelImage": "../images/modelsimage/bmw/x5.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "X6",
+          "modelImage": "../images/modelsimage/bmw/x6.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "X7",
+          "modelImage": "../images/modelsimage/bmw/x7.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "3 Series GT",
+          "modelImage": "../images/modelsimage/bmw/BMW3SeriesGT.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "5 Series GT",
+          "modelImage": "../images/modelsimage/bmw/BMW5SeriesGT.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "6 Series GT",
+          "modelImage": "../images/modelsimage/bmw/BMW6SeriesGT.png",
+          "petrol": true,
+          "diesel": true
+        },
+  
+        {
+          "modelName": "Z4",
+          "modelImage": "../images/modelsimage/bmw/z4.png",
+          "petrol": true,
+          "diesel": false        }
+      ]
+    },
+    {
+      "_id": "6098074a5c5eaf7217fc9114",
+      "brandName": "Chevrolet",
+      "brandImage": "../images/carBrands/chevrolet.png",
+      "models": [
+        {
+          "modelName": "Cruze",
+          "modelImage": "../images/modelsimage/chevrolet/2015chevroletcruze.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Aveo Uva",
+          "modelImage": "../images/modelsimage/chevrolet/chevroletaveouva.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Beat",
+          "modelImage": "../images/modelsimage/chevrolet/chevroletbeat.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Sail",
+          "modelImage": "../images/modelsimage/chevrolet/chevroletsail.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Tavera",
+          "modelImage": "../images/modelsimage/chevrolet/chevrolettavera.jpg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Aveo",
+          "modelImage": "../images/modelsimage/chevrolet/chvaveo.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Captiva",
+          "modelImage": "../images/modelsimage/chevrolet/chvcaptiva.jpg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Enjoy",
+          "modelImage": "../images/modelsimage/chevrolet/chvenjoy.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Forester",
+          "modelImage": "../images/modelsimage/chevrolet/chvforester.jpg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Optra",
+          "modelImage": "../images/modelsimage/chevrolet/chvoptra.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Spark",
+          "modelImage": "../images/modelsimage/chevrolet/chvspark.jpg",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "Trailblazer",
+          "modelImage": "../images/modelsimage/chevrolet/chvtrailblazer.jpg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Optra Magnum",
+          "modelImage": "../images/modelsimage/chevrolet/OptraMagnum.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Optra SRV",
+          "modelImage": "../images/modelsimage/chevrolet/OptraSRV.png",
+          "petrol": true,
+          "diesel": false        },
+        {
+          "modelName": "UVA",
+          "modelImage": "../images/modelsimage/chevrolet/uva.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Sail Hatchback",
+          "modelImage": "../images/modelsimage/chevrolet/sailhatchback.jpg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609807995c5eaf7217fc9115",
+      "brandName": "Datsun",
+      "brandImage": "../images/carBrands/datsun.png",
+      "models": [
+        {
+          "modelName": "Go",
+          "modelImage": "../images/modelsimage/datsun/go.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Go Plus",
+          "modelImage": "../images/modelsimage/datsun/goplus.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Redi Go",
+          "modelImage": "../images/modelsimage/datsun/redigo.png",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "6098085f5c5eaf7217fc9116",
+      "brandName": "Fiat",
+      "brandImage": "../images/carBrands/fiat.jpg",
+      "models": [
+        {
+          "modelName": "Abarth Punto",
+          "modelImage":
+            "../images/modelsimage/fiat/fiatabarthpuntomodelimage.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Adventure",
+          "modelImage": "../images/modelsimage/fiat/fiatadventure.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Avventura",
+          "modelImage": "../images/modelsimage/fiat/fiataventura.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Palio NV",
+          "modelImage": "../images/modelsimage/fiat/fiatpalio.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Palio D",
+          "modelImage": "../images/modelsimage/fiat/fiatpaliod.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Palio Stile",
+          "modelImage": "../images/modelsimage/fiat/fiatpaliostile.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Petra",
+          "modelImage": "../images/modelsimage/fiat/fiatpetra.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Punto",
+          "modelImage": "../images/modelsimage/fiat/fiatpuntopearlwhite.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Punto Evo",
+          "modelImage": "../images/modelsimage/fiat/PuntoEvo.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Uno",
+          "modelImage": "../images/modelsimage/fiat/fiatuno.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Urban Cross",
+          "modelImage": "../images/modelsimage/fiat/fiaturbancrossmodelimage.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Linea Classic",
+          "modelImage": "../images/modelsimage/fiat/fiatlineaclassic.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+
+        {
+          "modelName": "Linea",
+          "modelImage": "../images/modelsimage/fiat/fiatlineaexterior.jpg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609808f15c5eaf7217fc9118",
+      "brandName": "Ford",
+      "brandImage": "../images/carBrands/ford.png",
+      "models": [
+       
+        {
+          "modelName": "Eco Sport",
+          "modelImage": "../images/modelsimage/ford/ecosport.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Escort",
+          "modelImage": "../images/modelsimage/ford/escort.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Endeavour",
+          "modelImage": "../images/modelsimage/ford/endaevour.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Figo",
+          "modelImage": "../images/modelsimage/ford/figo.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Figo Aspire",
+          "modelImage": "../images/modelsimage/ford/figoaspire.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Freestyle",
+          "modelImage": "../images/modelsimage/ford/freestyle.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Fiesta",
+          "modelImage": "../images/modelsimage/ford/fiesta.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Fiesta Classic",
+          "modelImage": "../images/modelsimage/ford/fiestaclassic.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+
+        {
+          "modelName": "Fusion",
+          "modelImage": "../images/modelsimage/ford/fusion.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Ikon",
+          "modelImage": "../images/modelsimage/ford/ikon.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Mondeo",
+          "modelImage": "../images/modelsimage/ford/mondeo.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Mustang",
+          "modelImage": "../images/modelsimage/ford/mustang.jpeg",
+          "petrol": true,
+          "diesel": false        }
+      ]
+    },
+    {
+      "_id": "60980a345c5eaf7217fc9119",
+      "brandName": "Honda",
+      "brandImage": "../images/carBrands/honda.png",
+      "models": [
+        {
+          "modelName": "Amaze",
+          "modelImage": "../images/modelsimage/honda/amaze.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "City",
+          "modelImage": "../images/modelsimage/honda/city.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Jazz",
+          "modelImage": "../images/modelsimage/honda/jazz.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "WRV",
+          "modelImage": "../images/modelsimage/honda/wrv.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Accord",
+          "modelImage": "../images/modelsimage/honda/accord.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Accord Hybrid",
+          "modelImage": "../images/modelsimage/honda/accordhybrid.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Brio",
+          "modelImage": "../images/modelsimage/honda/brio.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "BRV",
+          "modelImage": "../images/modelsimage/honda/brv.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "City IDTC",
+          "modelImage": "../images/modelsimage/honda/cityidtec.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "City IVTEC",
+          "modelImage": "../images/modelsimage/honda/cityivtec.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "City ZX",
+          "modelImage": "../images/modelsimage/honda/cityzx.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Civic",
+          "modelImage": "../images/modelsimage/honda/civic.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "CRV",
+          "modelImage": "../images/modelsimage/honda/crv.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Mobilio",
+          "modelImage": "../images/modelsimage/honda/mobilio.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+        
+      ]
+    },
+    {
+      "_id": "609810df5c5eaf7217fc911a",
+      "brandName": "Hyundai",
+      "brandImage": "../images/carBrands/hyundai.png",
+      "models": [
+        {
+          "modelName": "Aura",
+          "modelImage": "../images/modelsimage/hyundai/aura.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Creta",
+          "modelImage": "../images/modelsimage/hyundai/creta.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Elantra",
+          "modelImage": "../images/modelsimage/hyundai/elantra.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "i10",
+          "modelImage": "../images/modelsimage/hyundai/i10.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "i20",
+          "modelImage": "../images/modelsimage/hyundai/i20.png",
+          "petrol": true,
+          "diesel": true
+        },
+        
+        {
+          "modelName": "Santro",
+          "modelImage": "../images/modelsimage/hyundai/santro.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Tucson",
+          "modelImage": "../images/modelsimage/hyundai/tucson.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Venue",
+          "modelImage": "../images/modelsimage/hyundai/venue.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Verna",
+          "modelImage": "../images/modelsimage/hyundai/verna.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Accent",
+          "modelImage": "../images/modelsimage/hyundai/accent.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Accent Viva",
+          "modelImage": "../images/modelsimage/hyundai/accentviva.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Elite i20",
+          "modelImage": "../images/modelsimage/hyundai/elitei20.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Eon",
+          "modelImage": "../images/modelsimage/hyundai/eon.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Getz",
+          "modelImage": "../images/modelsimage/hyundai/getz.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Getz Prime",
+          "modelImage": "../images/modelsimage/hyundai/getzprime.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Grand i10",
+          "modelImage": "../images/modelsimage/hyundai/grandi10.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Grand i10 Nios",
+          "modelImage": "../images/modelsimage/hyundai/grandinios.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "i20 Active",
+          "modelImage": "../images/modelsimage/hyundai/i20active.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "SantaFE",
+          "modelImage": "../images/modelsimage/hyundai/santafe.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Santro Xing",
+          "modelImage": "../images/modelsimage/hyundai/santroxing.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Sonata",
+          "modelImage": "../images/modelsimage/hyundai/sonata.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Sonata Embera",
+          "modelImage": "../images/modelsimage/hyundai/sonataembera.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Sonata Transform",
+          "modelImage": "../images/modelsimage/hyundai/sonatatransform.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Verna Fluidic",
+          "modelImage": "../images/modelsimage/hyundai/vernafludic.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Verna Transform",
+          "modelImage": "../images/modelsimage/hyundai/vernatransform.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Xcent",
+          "modelImage": "../images/modelsimage/hyundai/xcent.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "6098128e5c5eaf7217fc911b",
+      "brandName": "Jaguar",
+      "brandImage": "../images/carBrands/jaguar.png",
+      "models": [
+        {
+          "modelName": "F Pace",
+          "modelImage": "../images/modelsimage/jaguar/fpace.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XE",
+          "modelImage": "../images/modelsimage/jaguar/xe.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XF",
+          "modelImage": "../images/modelsimage/jaguar/xf.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "F Type",
+          "modelImage": "../images/modelsimage/jaguar/ftype.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "XJ",
+          "modelImage": "../images/modelsimage/jaguar/xj.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "6098135e5c5eaf7217fc911c",
+      "brandName": "Jeep",
+      "brandImage": "../images/carBrands/jeep.png",
+      "models": [
+        {
+          "modelName": "Compass",
+          "modelImage": "../images/modelsimage/jeep/compass.png",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609814365c5eaf7217fc911d",
+      "brandName": "Kia",
+      "brandImage": "../images/carBrands/kia.png",
+      "models": [
+        {
+          "modelName": "Carnival",
+          "modelImage": "../images/modelsimage/kia/carnival.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Seltos",
+          "modelImage": "../images/modelsimage/kia/seltos.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Sonet",
+          "modelImage": "../images/modelsimage/kia/sonet.png",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609815025c5eaf7217fc911f",
+      "brandName": "Mahindra",
+      "brandImage": "../images/carBrands/mahindra.png",
+      "models": [
+        {
+          "modelName": "Alturas G4",
+          "modelImage": "../images/modelsimage/mahindra/alturasg4.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Bolero",
+          "modelImage": "../images/modelsimage/mahindra/bolero.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Bolero Camper",
+          "modelImage": "../images/modelsimage/mahindra/bolerocamper.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Bolero Pickup",
+          "modelImage": "../images/modelsimage/mahindra/boleropickup.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "KUV 100",
+          "modelImage": "../images/modelsimage/mahindra/kuv100.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Marazzo",
+          "modelImage": "../images/modelsimage/mahindra/marazzo.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Scorpio",
+          "modelImage": "../images/modelsimage/mahindra/scropio.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Scorpio Getaway",
+          "modelImage": "../images/modelsimage/mahindra/scorpiogetaway.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Thar",
+          "modelImage": "../images/modelsimage/mahindra/thar.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "XUV 300",
+          "modelImage": "../images/modelsimage/mahindra/xuv300.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XUV 500",
+          "modelImage": "../images/modelsimage/mahindra/xuv500.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "E20 Plus",
+          "modelImage": "../images/modelsimage/mahindra/e20plus.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Imperio",
+          "modelImage": "../images/modelsimage/mahindra/imperio.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Logan",
+          "modelImage": "../images/modelsimage/mahindra/logan.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "NuvoSport",
+          "modelImage": "../images/modelsimage/mahindra/nuvosport.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Quanto",
+          "modelImage": "../images/modelsimage/mahindra/quanto.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "TUV 300",
+          "modelImage": "../images/modelsimage/mahindra/tuv300.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Verito",
+          "modelImage": "../images/modelsimage/mahindra/verito.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Verito Vibe CS",
+          "modelImage": "../images/modelsimage/mahindra/veritovibecs.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Xylo",
+          "modelImage": "../images/modelsimage/mahindra/xylo.jpeg",
+          "petrol": false,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "6098165a5c5eaf7217fc9120",
+      "brandName": "Mercedes",
+      "brandImage": "../images/carBrands/mercedes.png",
+      "models": [
+        {
+          "modelName": "A-Class",
+          "modelImage": "../images/modelsimage/mercedes/aclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "AMG GT",
+          "modelImage": "../images/modelsimage/mercedes/amggt.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "B-Class",
+          "modelImage": "../images/modelsimage/mercedes/bclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "C-Class",
+          "modelImage": "../images/modelsimage/mercedes/cclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "CLA Class",
+          "modelImage": "../images/modelsimage/mercedes/claclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "CLS Class",
+          "modelImage": "../images/modelsimage/mercedes/clsclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "E-Class",
+          "modelImage": "../images/modelsimage/mercedes/eclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "G63 AMGr",
+          "modelImage": "../images/modelsimage/mercedes/g63amgr.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "GLA Class",
+          "modelImage": "../images/modelsimage/mercedes/glaclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "GL Class",
+          "modelImage": "../images/modelsimage/mercedes/glclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "GLE Class",
+          "modelImage": "../images/modelsimage/mercedes/gleclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "ML Class",
+          "modelImage": "../images/modelsimage/mercedes/mlclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "R Class",
+          "modelImage": "../images/modelsimage/mercedes/rclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "S-Class",
+          "modelImage": "../images/modelsimage/mercedes/sclass.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "SL 500 AMG",
+          "modelImage": "../images/modelsimage/mercedes/sl500amg.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "SLK Class",
+          "modelImage": "../images/modelsimage/mercedes/slkclass.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "_id": "609817175c5eaf7217fc9121",
+      "brandName": "Mitsubishi",
+      "brandImage": "../images/carBrands/mitsubishi.png",
+      "models": [
+        {
+          "modelName": "Cedia",
+          "modelImage": "../images/modelsimage/mitsubishi/cedia.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Lancer",
+          "modelImage": "../images/modelsimage/mitsubishi/lancer.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Montero",
+          "modelImage": "../images/modelsimage/mitsubishi/montero.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Outlander",
+          "modelImage": "../images/modelsimage/mitsubishi/outlander.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Pajero",
+          "modelImage": "../images/modelsimage/mitsubishi/pajero.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Pajero Sport",
+          "modelImage": "../images/modelsimage/mitsubishi/pajerosport.jpeg",
+          "petrol": false,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609817fe5c5eaf7217fc9122",
+      "brandName": "Nissan",
+      "brandImage": "../images/carBrands/nissan.png",
+      "models": [
+        {
+          "modelName": "Kicks",
+          "modelImage": "../images/modelsimage/nissan/kicks.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Magnite",
+          "modelImage": "../images/modelsimage/nissan/magnite.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Evalia",
+          "modelImage": "../images/modelsimage/nissan/evalia.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "GTR",
+          "modelImage": "../images/modelsimage/nissan/gtr.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Micra",
+          "modelImage": "../images/modelsimage/nissan/micra.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Micra Active",
+          "modelImage": "../images/modelsimage/nissan/micraactive.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Sunny",
+          "modelImage": "../images/modelsimage/nissan/sunny.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Teana",
+          "modelImage": "../images/modelsimage/nissan/teana.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Terrano",
+          "modelImage": "../images/modelsimage/nissan/terrano.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "X-Trail",
+          "modelImage": "../images/modelsimage/nissan/xtrail.jpeg",
+          "petrol": false,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609818705c5eaf7217fc9123",
+      "brandName": "Renault",
+      "brandImage": "../images/carBrands/renault.png",
+      "models": [
+        {
+          "modelName": "Duster",
+          "modelImage": "../images/modelsimage/renault/duster.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Kiger",
+          "modelImage": "../images/modelsimage/renault/kiger.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Kwid",
+          "modelImage": "../images/modelsimage/renault/kwid.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Triber",
+          "modelImage": "../images/modelsimage/renault/triber.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Captur",
+          "modelImage": "../images/modelsimage/renault/captur.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Fluence",
+          "modelImage": "../images/modelsimage/renault/fluence.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Koleos",
+          "modelImage": "../images/modelsimage/renault/koleos.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Lodgy",
+          "modelImage": "../images/modelsimage/renault/lodgy.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Pulse",
+          "modelImage": "../images/modelsimage/renault/pulse.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Scala",
+          "modelImage": "../images/modelsimage/renault/scala.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "609819095c5eaf7217fc9124",
+      "brandName": "Skoda",
+      "brandImage": "../images/carBrands/skoda.png",
+      "models": [
+        
+        {
+          "modelName": "Octavia",
+          "modelImage": "../images/modelsimage/skoda/octavia.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Rapid",
+          "modelImage": "../images/modelsimage/skoda/rapid.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Superb",
+          "modelImage": "../images/modelsimage/skoda/superb.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Fabia",
+          "modelImage": "../images/modelsimage/skoda/fabia.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Fabia Scout",
+          "modelImage": "../images/modelsimage/skoda/fabiascout.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Kodiaq",
+          "modelImage": "../images/modelsimage/skoda/kodiaq.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Laura",
+          "modelImage": "../images/modelsimage/skoda/laura.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Yeti",
+          "modelImage": "../images/modelsimage/skoda/yeti.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "60981b555c5eaf7217fc9127",
+      "brandName": "Tata",
+      "brandImage": "../images/carBrands/tata.png",
+      "models": [
+        {
+          "modelName": "Altroz",
+          "modelImage": "../images/modelsimage/tata/altroz.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Harrier",
+          "modelImage": "../images/modelsimage/tata/harrier.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Nexon",
+          "modelImage": "../images/modelsimage/tata/nexon.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Safari",
+          "modelImage": "../images/modelsimage/tata/safari.png",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Tiago",
+          "modelImage": "../images/modelsimage/tata/tiago.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Tigor",
+          "modelImage": "../images/modelsimage/tata/tigor.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Aria",
+          "modelImage": "../images/modelsimage/tata/aria.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Bolt",
+          "modelImage": "../images/modelsimage/tata/bolt.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Hexa",
+          "modelImage": "../images/modelsimage/tata/hexa.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indica",
+          "modelImage": "../images/modelsimage/tata/indica.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indica eV2",
+          "modelImage": "../images/modelsimage/tata/indicaev2.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indica V2",
+          "modelImage": "../images/modelsimage/tata/indicav2.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indigo",
+          "modelImage": "../images/modelsimage/tata/indigo.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indigo CS",
+          "modelImage": "../images/modelsimage/tata/indigocs.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indigo eCS",
+          "modelImage": "../images/modelsimage/tata/indigoecs.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indigo Marina",
+          "modelImage": "../images/modelsimage/tata/indigomarina.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Indigo XL",
+          "modelImage": "../images/modelsimage/tata/indigoXL.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Manza",
+          "modelImage": "../images/modelsimage/tata/manza.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Nano",
+          "modelImage": "../images/modelsimage/tata/nano.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Indigo",
+          "modelImage": "../images/modelsimage/tata/indigo.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Safari Storme",
+          "modelImage": "../images/modelsimage/tata/safaristorme.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Sumo Gold",
+          "modelImage": "../images/modelsimage/tata/sumogold.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Sumo Grande",
+          "modelImage": "../images/modelsimage/tata/sumogrande.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Sumo Victa",
+          "modelImage": "../images/modelsimage/tata/sumovicta.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Sumo Grande MK II",
+          "modelImage": "../images/modelsimage/tata/sumograndemkii.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Sumo Spacio",
+          "modelImage": "../images/modelsimage/tata/sumospacio.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Venture",
+          "modelImage": "../images/modelsimage/tata/venture.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Indica Vista",
+          "modelImage": "../images/modelsimage/tata/vista.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Winger",
+          "modelImage": "../images/modelsimage/tata/wingler.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Xenon",
+          "modelImage": "../images/modelsimage/tata/xenon.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Zest",
+          "modelImage": "../images/modelsimage/tata/zest.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "60981c3d5c5eaf7217fc9128",
+      "brandName": "Toyota",
+      "brandImage": "../images/carBrands/toyota.png",
+      "models": [
+        {
+          "modelName": "Camry",
+          "modelImage": "../images/modelsimage/toyota/camry.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Fortuner",
+          "modelImage": "../images/modelsimage/toyota/fortuner.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Glanza",
+          "modelImage": "../images/modelsimage/toyota/glanza.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Innova",
+          "modelImage": "../images/modelsimage/toyota/innova.png",
+          "petrol": true,
+          "diesel": true
+        },
+        
+        {
+          "modelName": "Yaris",
+          "modelImage": "../images/modelsimage/toyota/yaris.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Innova Crysta",
+          "modelImage": "../images/modelsimage/toyota/innovacrysta.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Corolla",
+          "modelImage": "../images/modelsimage/toyota/corolla.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Corolla Altis",
+          "modelImage": "../images/modelsimage/toyota/corollaaltis.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Etios",
+          "modelImage": "../images/modelsimage/toyota/etios.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Etios Cross",
+          "modelImage": "../images/modelsimage/toyota/etioscross.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Etios Liva",
+          "modelImage": "../images/modelsimage/toyota/etiosliva.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Land Cruiser",
+          "modelImage": "../images/modelsimage/toyota/landcruiser.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Land Cruiser Prado",
+          "modelImage": "../images/modelsimage/toyota/landcruiserprado.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Qualis",
+          "modelImage": "../images/modelsimage/toyota/qualis.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Sera",
+          "modelImage": "../images/modelsimage/toyota/sera.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Urban Cruiser",
+          "modelImage": "../images/modelsimage/toyota/urbancruiser.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "_id": "60981cfb5c5eaf7217fc9129",
+      "brandName": "Volkswagen",
+      "brandImage": "../images/carBrands/volkswagen.png",
+      "models": [
+        {
+          "modelName": "Polo",
+          "modelImage": "../images/modelsimage/volkswagen/polo.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Tiguan",
+          "modelImage": "../images/modelsimage/volkswagen/tiguan.png",
+          "petrol": false,
+          "diesel": true
+        },
+     
+        {
+          "modelName": "Vento",
+          "modelImage": "../images/modelsimage/volkswagen/vento.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Ameo",
+          "modelImage": "../images/modelsimage/volkswagen/ameo.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Beetle",
+          "modelImage": "../images/modelsimage/volkswagen/beetle.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Cross Polo",
+          "modelImage": "../images/modelsimage/volkswagen/crosspolo.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Jetta",
+          "modelImage": "../images/modelsimage/volkswagen/jetta.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Passat",
+          "modelImage": "../images/modelsimage/volkswagen/passat.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "_id": "60981d965c5eaf7217fc912a",
+      "brandName": "Volvo",
+      "brandImage": "../images/carBrands/volvo.png",
+      "models": [
+        
+        {
+          "modelName": "S60",
+          "modelImage": "../images/modelsimage/volvo/s60.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "S90",
+          "modelImage": "../images/modelsimage/volvo/s90.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "V90",
+          "modelImage": "../images/modelsimage/volvo/v90.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XC90",
+          "modelImage": "../images/modelsimage/volvo/xc90.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "S40",
+          "modelImage": "../images/modelsimage/volvo/s40.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "S60 Cross Country",
+          "modelImage": "../images/modelsimage/volvo/s60crosscountry.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "S80",
+          "modelImage": "../images/modelsimage/volvo/s80.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "V40",
+          "modelImage": "../images/modelsimage/volvo/v40.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "V40 Cross Country",
+          "modelImage": "../images/modelsimage/volvo/v40crosscountry.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "V60",
+          "modelImage": "../images/modelsimage/volvo/v60.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XC40",
+          "modelImage": "../images/modelsimage/volvo/xc40.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XC60",
+          "modelImage": "../images/modelsimage/volvo/xc60.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+   
+    {
+      "brandName": "Aston Martin",
+      "brandImage": "../images/carBrands/astonmartin.jpg",
+      "models": [
+        {
+          "modelName": "DB9",
+          "modelImage": "../images/modelsimage/astonmartin/astonmartindb9.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        
+        {
+          "modelName": "Rapide",
+          "modelImage": "../images/modelsimage/astonmartin/rapide.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Vanquish",
+          "modelImage":
+            "../images/modelsimage/astonmartin/astonmartinvanquish.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Vantage",
+          "modelImage":
+            "../images/modelsimage/astonmartin/astonmartinvantage.jpg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Bentley",
+      "brandImage": "../images/carBrands/bentley.jpg",
+      "models": [
+     
+        {
+          "modelName": "Continental",
+          "modelImage": "../images/modelsimage/bentley/continental.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Flying Spur",
+          "modelImage": "../images/modelsimage/bentley/flyingspur.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Mulsanne",
+          "modelImage": "../images/modelsimage/bentley/mulsanne.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Daewoo",
+      "brandImage": "../images/carBrands/daewoo.jpg",
+      "models": [
+        {
+          "modelName": "Cielo",
+          "modelImage": "../images/modelsimage/daewoo/cielo.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Matiz",
+          "modelImage": "../images/modelsimage/daewoo/matiz.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Nexia",
+          "modelImage": "../images/modelsimage/daewoo/nexia.jpg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "DC",
+      "brandImage": "../images/carBrands/dc.jpg",
+      "models": [
+        {
+          "modelName": "Avanti",
+          "modelImage": "../images/modelsimage/dc/dcavanti.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Ferrari",
+      "brandImage": "../images/carBrands/ferrari.jpg",
+      "models": [
+       
+        {
+          "modelName": "458 Italia",
+          "modelImage": "../images/modelsimage/ferrari/458italia.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "458 Speciale",
+          "modelImage": "../images/modelsimage/ferrari/458speciale.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "488",
+          "modelImage": "../images/modelsimage/ferrari/488.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+  
+        {
+          "modelName": "California",
+          "modelImage": "../images/modelsimage/ferrari/california.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+   
+        {
+          "modelName": "F12 Berlinetta",
+          "modelImage": "../images/modelsimage/ferrari/f12berlinetta.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "FF",
+          "modelImage": "../images/modelsimage/ferrari/ff.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Force",
+      "brandImage": "../images/carBrands/force.jpg",
+      "models": [
+        {
+          "modelName": "One",
+          "modelImage": "../images/modelsimage/force/forceone.jpg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Gurkha",
+          "modelImage": "../images/modelsimage/force/forcegurkhazw.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+    
+        {
+          "modelName": "Traveller 3350",
+          "modelImage":
+            "../images/modelsimage/force/forcetravellerdeliveryvan3350.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+
+        {
+          "modelName": "Trax",
+          "modelImage": "../images/modelsimage/force/trax.jpeg",
+          "petrol": false,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Photon",
+      "brandImage": "../images/carBrands/foton.jpg",
+      "models": [
+        
+        {
+          "modelName": "VIW CS2",
+          "modelImage": "../images/modelsimage/foton/fotonviewc.jpg",
+          "petrol": false,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Hindustan Motors",
+      "brandImage": "../images/carBrands/hindustanmotors.jpg",
+      "models": [
+        {
+          "modelName": "Ambassador",
+          "modelImage": "../images/modelsimage/hindustanmotors/hmambassador.jpg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Isuzu",
+      "brandImage": "../images/carBrands/isuzu.jpg",
+      "models": [
+    
+        {
+          "modelName": "MU7",
+          "modelImage": "../images/modelsimage/isuzu/isuzumux.jpeg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Dmax V Cross",
+          "modelImage": "../images/modelsimage/isuzu/dmaxvcross.jpeg",
+          "petrol": false,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Jayem",
+      "brandImage": "../images/carBrands/j.jpg",
+      "models": [
+        {
+          "modelName": "Neo",
+          "modelImage": "../images/modelsimage/jayem/neo.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Lamborghini",
+      "brandImage": "../images/carBrands/lamborgini.jpg",
+      "models": [
+        {
+          "modelName": "Gallardo",
+          "modelImage": "../images/modelsimage/lamborgini/gallardo.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Huracan",
+          "modelImage": "../images/modelsimage/lamborgini/huracan.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+       
+        {
+          "modelName": "Aventador",
+          "modelImage":
+            "../images/modelsimage/lamborgini/lamborghiniaventadorsvj.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Land Rover",
+      "brandImage": "../images/carBrands/landrover.jpg",
+      "models": [
+    
+        {
+          "modelName": "Discovery 4",
+          "modelImage": "../images/modelsimage/landrover/dicovery4.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Discovery Sport",
+          "modelImage": "../images/modelsimage/landrover/discoverysport.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Range Rover Evoque",
+          "modelImage": "../images/modelsimage/landrover/evoque.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Freelander 2",
+          "modelImage": "../images/modelsimage/landrover/freeelander.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+ 
+        {
+          "modelName": "Range Rover Velar",
+          "modelImage":
+            "../images/modelsimage/landrover/rangerovervelarmodel.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Range Rover",
+          "modelImage": "../images/modelsimage/landrover/rangerover.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Range Rover Sport",
+          "modelImage": "../images/modelsimage/landrover/rangeroversport.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Range Rover Vogue",
+          "modelImage": "../images/modelsimage/landrover/vogue.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Maruti Suzuki",
+      "brandImage": "../images/carBrands/marutisuzuki.jpg",
+      "models": [
+        {
+          "modelName": "Baleno",
+          "modelImage": "../images/modelsimage/marutisuzuki/baleno.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Ciaz",
+          "modelImage": "../images/modelsimage/marutisuzuki/ciaz.png",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Eeco",
+          "modelImage": "../images/modelsimage/marutisuzuki/eeco.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Celerio",
+          "modelImage":
+            "../images/modelsimage/marutisuzuki/marutisuzukicelerio3.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "800",
+          "modelImage": "../images/modelsimage/marutisuzuki/80020082014.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "A-Star",
+          "modelImage": "../images/modelsimage/marutisuzuki/astar.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Swift Dzire",
+          "modelImage": "../images/modelsimage/marutisuzuki/dzire.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Ertiga",
+          "modelImage": "../images/modelsimage/marutisuzuki/ertiga.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Esteem",
+          "modelImage": "../images/modelsimage/marutisuzuki/esteem.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Estilo",
+          "modelImage": "../images/modelsimage/marutisuzuki/estilo.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Grand Vitara",
+          "modelImage": "../images/modelsimage/marutisuzuki/grandvitara.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+     
+        {
+          "modelName": "Gypsy",
+          "modelImage": "../images/modelsimage/marutisuzuki/gypsy.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Kizashi",
+          "modelImage": "../images/modelsimage/marutisuzuki/kizashi.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Alto",
+          "modelImage": "../images/modelsimage/marutisuzuki/marutisuzukialto.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Alto 800",
+          "modelImage":
+            "../images/modelsimage/marutisuzuki/marutisuzukialto800.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Alto K10",
+          "modelImage":
+            "../images/modelsimage/marutisuzuki/marutisuzukialtok10.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Ignis",
+          "modelImage":
+            "../images/modelsimage/marutisuzuki/marutisuzukiignis.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "SX4",
+          "modelImage":
+            "../images/modelsimage/marutisuzuki/marutisuzukisx4default.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Vitara Brezza",
+          "modelImage":
+            "../images/modelsimage/marutisuzuki/marutisuzukivitarabrezza.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "XL6",
+          "modelImage": "../images/modelsimage/marutisuzuki/xl6.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Versa",
+          "modelImage": "../images/modelsimage/marutisuzuki/marutiversa.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Ritz",
+          "modelImage": "../images/modelsimage/marutisuzuki/ritz1.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "S-Cross",
+          "modelImage": "../images/modelsimage/marutisuzuki/scrosspetrol.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "S-Presso",
+          "modelImage": "../images/modelsimage/marutisuzuki/spresso.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Swift",
+          "modelImage": "../images/modelsimage/marutisuzuki/swift.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Omni",
+          "modelImage": "../images/modelsimage/marutisuzuki/vanomni1.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "WagonR",
+          "modelImage": "../images/modelsimage/marutisuzuki/wagonr.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+
+        {
+          "modelName": "Zen",
+          "modelImage": "../images/modelsimage/marutisuzuki/zen.jpg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Maserati",
+      "brandImage": "../images/carBrands/maserati.jpg",
+      "models": [
+        {
+          "modelName": "Ghibli",
+          "modelImage": "../images/modelsimage/maserati/ghiblimaserati.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+
+        {
+          "modelName": "Quattroporte",
+          "modelImage":
+            "../images/modelsimage/maserati/maseratiquattroportemodelimage.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "GranTurismo",
+          "modelImage": "../images/modelsimage/maserati/maseratigranturismo.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+   
+        {
+          "modelName": "GranCabrio",
+          "modelImage": "../images/modelsimage/maserati/maseratigrancabriomc.jpg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "MG",
+      "brandImage": "../images/carBrands/mg.jpg",
+      "models": [
+   
+        {
+          "modelName": "Gloster",
+          "modelImage": "../images/modelsimage/mg/gloster.jpg",
+          "petrol": false,
+          "diesel": true
+        },
+        {
+          "modelName": "Hector",
+          "modelImage": "../images/modelsimage/mg/hector.jpg",
+          "petrol": true,
+          "diesel": true
+        }
+       
+      ]
+    },
+    {
+      "brandName": "Mini",
+      "brandImage": "../images/carBrands/minicooper.jpg",
+      "models": [
+        {
+          "modelName": "Cooper",
+          "modelImage": "../images/modelsimage/minicooper/minicooper.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Clubman",
+          "modelImage": "../images/modelsimage/minicooper/miniclubman.png",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Countryman",
+          "modelImage": "../images/modelsimage/minicooper/minicountryman.png",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Opel",
+      "brandImage": "../images/carBrands/opel.jpg",
+      "models": [
+        {
+          "modelName": "Astra",
+          "modelImage": "../images/modelsimage/opel/astra.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Corsa",
+          "modelImage": "../images/modelsimage/opel/corsa.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    },
+    {
+      "brandName": "Porsche",
+      "brandImage": "../images/carBrands/porshe.jpg",
+      "models": [
+        {
+          "modelName": "911",
+          "modelImage": "../images/modelsimage/porshe/porsche911.jpg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Cayenne",
+          "modelImage": "../images/modelsimage/porshe/porschecayenne.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Macan",
+          "modelImage": "../images/modelsimage/porshe/porschemacan.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Panamera",
+          "modelImage": "../images/modelsimage/porshe/porschepanamera.jpg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Cayman",
+          "modelImage": "../images/modelsimage/porshe/porshe718.jpeg",
+          "petrol": true,
+          "diesel": true
+        },
+        {
+          "modelName": "Boxter",
+          "modelImage": "../images/modelsimage/porshe/Boxter.png",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Rolls Royce",
+      "brandImage": "../images/carBrands/rollsroyce.jpg",
+      "models": [
+     
+        {
+          "modelName": "Ghost",
+          "modelImage": "../images/modelsimage/rollsroyce/Ghost.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Phantom",
+          "modelImage": "../images/modelsimage/rollsroyce/phantom.jpeg",
+          "petrol": true,
+          "diesel": false
+        },
+        {
+          "modelName": "Wraith",
+          "modelImage": "../images/modelsimage/rollsroyce/Wraith.jpeg",
+          "petrol": true,
+          "diesel": false
+        }
+      ]
+    },
+    {
+      "brandName": "Ssangyong",
+      "brandImage": "../images/carBrands/ssangyong.jpg",
+      "models": [
+        {
+          "modelName": "Rexton",
+          "modelImage":
+            "../images/modelsimage/ssangyong/ssangyongrextondefault.jpeg",
+          "petrol": true,
+          "diesel": true
+        }
+      ]
+    }
+  ]
+}

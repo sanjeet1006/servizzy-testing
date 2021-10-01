@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/Logo (2).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>Manage Customer Fleets</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/services"
+        ><img src="/images/Logo (2).png" width="100" alt=""
+      /></a>
+      <button
+        class="navbar-toggler navbar-toggler-right collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navb"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/services">Services</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="/user">Manage Customers</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/ongoingOrder">Ongoing Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/completedOrder">Completed Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/offlineOrder">Offline Order</a>
+          </li>
+          <% if(role=='superAdmin') {%>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="/addAdmin">Add Admin</a>
+            </li>
+            <%}%>
+        </ul>
+        <a href="/logout">  <button class="btn btn-success my-2 my-sm-0">
+          Logout
+        </button></a>
+      </div>
+    </nav>
+    <h2 class="heading card1-h text-uppercase text-center mt-5">Customer Fleets</h2>
+    <!--
+
+
+
+
+policyName
+:
+"Free"
+registrationNumber
+    -->
+    <div class="container-fluid table-responsive">
+      <%- include('message') %>
+      <table class="table table-bordered table-hover mt-5">
+        <thead class="thead-dark">
+            <% if(data.length >0){%>
+          <tr>
+            <th scope="col">Car Details</th>
+            <th scope="col">Chassis Number</th>
+            <th scope="col">Engine Number</th>
+            <th scope="col">Insurance Number</th>
+            <th scope="col">Insurance Expiry Date</th>
+            <th scope="col">Manufacture Year</th>
+            <th scope="col">Policy Name</th>
+            <th scope="col">Registration Number</th>
+            <th scope="col">Uploaded Documents</th>
+          </tr>
+        </thead>
+            <tbody>
+                <tbody>
+                    <% data.forEach(function(row,index){%>
+                  <tr>
+                    <td><%= row.brandName %> - <%= row.modelName %> - <%=row.fuelType%></td>
+                    <td><%= row.chassisNumber %></td>
+                    <td><%= row.engineNumber %></td>
+                    <td><%= row.insuranceNumber %></td>
+                    <td><%= row.insurerExpiryDate %></td>
+                    <td><%= row.manufacYear %></td>
+                    <td><%= row.policyName %></td>
+                    <td><%= row.registrationNumber %></td>
+                    <td><%row.images.map(item=>{ %><a href="<%=item.imageUrl%>" target="_blank" class="m-1"><i class="fas fa-eye blue-eye"></i></a><%}) %></td>
+                  </tr>
+            <%})%>
+                </tbody>
+              </tbody>
+        <% }else{%>
+            <p>No Fleets Available for the current selected user</p>
+       <% }%>
+      </table>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/Logo (2).png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
+    <title>Services</title>
+
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="/"
+        ><img src="/images/Logo (2).png" width="100" alt=""
+      /></a>
+      <button
+        class="navbar-toggler navbar-toggler-right collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navb"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse" id="navb">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mx-4">
+            <a class="nav-link active" href="/services">Services</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/user">Manage Customers</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link" href="/ongoingOrder">Ongoing Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/completedOrder">Completed Order</a>
+          </li>
+          <li class="nav-item mx-4">
+            <a class="nav-link " href="/offlineOrder">Offline Order</a>
+          </li>
+          <% if(role=='superAdmin') {%>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="/addAdmin">Add Admin</a>
+            </li>
+            <%}%>
+        </ul>
+        <a href="/logout">  <button class="btn btn-success my-2 my-sm-0">
+          Logout
+        </button></a>
+      </div>
+    </nav>
+    <div class="container mt-5">
+          <div class="modal-body">
+            <form method="POST" action="/ElectricalService/edit">
+                <input type="hidden" name="id" value="<%=data._id%>">
+              <div class="modal-body">
+                <div class="form-group">
+                  <label for="desc1">Description 1</label>
+                  <textarea
+                    class="form-control"
+                    name="desc1"
+                    id="desc1"
+                    cols="10"
+                    rows="2"
+                    required
+                  > <%= typeof data.warnOne!='undefined' ? data.warnOne :'' %></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="desc2">Description 2</label>
+                  <textarea
+                    class="form-control"
+                    name="desc2"
+                    id="desc2"
+                    cols="10"
+                    rows="2"
+                    required
+                  > <%= typeof data.warnTwo!='undefined' ? data.warnTwo :'' %></textarea>
+                </div>
+                <div class="form-group">
+                  <label for="price">Price</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="price"
+                    id="price"
+                    value="<%= typeof data.price!='undefined' ? data.price :'' %>"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="time">Time</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="time"
+                    id="time"
+                    value="<%= typeof data.time!='undefined' ? data.time :'' %>"
+                    required
+                  />
+                </div>
+              </div>
+              <div
+                class="modal-footer border-top-0 d-flex justify-content-center"
+              >
+                <button type="submit" class="btn btn-warning">Update</button>
+              </div>
+            </form>
+          </div>
+          <!-- <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-warning">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- <script src="/javascripts/displaydata.js"></script> -->
+  </body>
+</html>
