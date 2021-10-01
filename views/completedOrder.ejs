@@ -125,8 +125,8 @@
                     <!-- <td><%= row.nextServiceDate %></td> -->
                     <!-- <td><%= row.nextServiceKms %></td> -->
                     <td><%= row.paymentId %></td>
-                    <!-- <td><%= moment(row.time).format('MMMM Do YYYY, h:mm:ss a') %></td> -->
-                    <td><%= row.createdAt %></td>
+                    <td><%= moment(row.time).format('MMMM Do YYYY, h:mm:ss a') %></td>
+                   
                     <td><% if(row.orderStatus==='true'){ %>
                           Completed
                   <% } %>
