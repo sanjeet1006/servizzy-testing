@@ -6,7 +6,7 @@ const authenticate=require('../middleware/auhenticate')
 const upload=require('../utils/multer');
 const cloudinary=require('../utils/cloudinary')
 const messagebird = require("messagebird")(process.env.MSSG_KEY);
-
+const fs=require('fs')
 
 
 let fileHandler = function (err) {
